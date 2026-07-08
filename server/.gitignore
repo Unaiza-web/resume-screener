@@ -1,0 +1,17 @@
+# Environment files
+server/.env
+ai-service/.env
+client/.env
+
+# Node
+**/node_modules/
+**/dist/
+
+# Python
+**/__pycache__/
+**/*.pyc
+.venv/
+venv/
+
+# Logs
+*.log

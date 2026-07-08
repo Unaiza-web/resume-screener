@@ -1,0 +1,26 @@
+{
+  "name": "resume-backend-node",
+  "version": "1.0.0",
+  "description": "AI Resume Screener backend — Express + MongoDB + Groq (free AI). No login required.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mammoth": "^1.12.0",
+    "mongoose": "^9.7.3",
+    "multer": "^2.2.0",
+    "pdf-parse": "^2.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
